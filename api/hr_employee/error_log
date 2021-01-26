@@ -1,0 +1,12 @@
+[16-Oct-2019 13:10:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/techmelo/public_html/testing.techmelo.com/weba/api/model/hr_employee.php:26
+Stack trace:
+#0 /home/techmelo/public_html/testing.techmelo.com/weba/api/hr_employee/read.php(17): Hr_Employee->read()
+#1 {main}
+  thrown in /home/techmelo/public_html/testing.techmelo.com/weba/api/model/hr_employee.php on line 26
+[17-Oct-2019 04:43:41 UTC] PHP Notice:  Trying to get property of non-object in /home/techmelo/public_html/testing.techmelo.com/weba/api/hr_employee/update.php on line 24
+[17-Oct-2019 04:43:41 UTC] PHP Notice:  Trying to get property of non-object in /home/techmelo/public_html/testing.techmelo.com/weba/api/hr_employee/update.php on line 27
+[17-Oct-2019 04:43:41 UTC] PHP Notice:  Trying to get property of non-object in /home/techmelo/public_html/testing.techmelo.com/weba/api/hr_employee/update.php on line 28
+[17-Oct-2019 05:33:36 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/techmelo/public_html/testing.techmelo.com/weba/api/model/hr_employee.php on line 58
+[17-Oct-2019 05:33:53 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/techmelo/public_html/testing.techmelo.com/weba/api/model/hr_employee.php on line 58
+[17-Oct-2019 05:34:26 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/techmelo/public_html/testing.techmelo.com/weba/api/model/hr_employee.php on line 58
+[17-Oct-2019 05:36:36 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/techmelo/public_html/testing.techmelo.com/weba/api/model/hr_employee.php on line 58
